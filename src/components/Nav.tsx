@@ -1,8 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./nav.scss";
-import { BsLinkedin, BsGithub } from "react-icons/bs";
-import { MdEmail} from "react-icons/md"
 
 const Nav:React.FC= () => {
   return (
