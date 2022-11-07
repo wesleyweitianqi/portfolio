@@ -4,6 +4,7 @@ import { SiJavascript, SiTypescript, SiRuby, SiHtml5,
         SiExpress, SiRubyonrails, SiPostgresql, SiMongodb,
         SiMocha, SiChai, SiEslint, SiStorybook, SiJest, SiCypress } from "react-icons/si";
 import { FaPython, FaSass, FaVuejs, FaNode } from "react-icons/fa";
+import './skill.scss';
 
 
 const Skill:React.FC = () => {
