@@ -1,0 +1,44 @@
+#container {
+  display: flex;
+}
+
+#home {
+  width: 50vw;
+  // height: 50vh;
+  margin:auto;
+  padding-top: 100px;
+  text-align: right;
+}
+
+#icons {
+  font-size: 1.5rem; 
+  display: flex;
+  justify-content: right;
+  color: white;
+  span {
+    margin: 0 20px;
+  }
+}
+#introduction {
+  color: white;
+}
+
+#profile {
+  width: 50vw;
+  justify-content: center;
+  text-align: center;
+  padding-top: 100px;
+  img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+  }
+}
+
+#introduction > span {
+  margin-left: 100px;
+  background-color: rgb(96, 87, 200);
+  margin-top: 50px;
+  padding: 10px 10px;
+  border-radius: 50px;
+}

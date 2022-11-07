@@ -1,0 +1,45 @@
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 3fr 0.5fr;
+  text-align: center;
+  justify-content: center;
+}
+
+em {
+  font-weight: bolder;
+  color: white;
+  font-size: 2rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type:none;
+  justify-content: center;
+  text-align: center;
+}
+
+li {
+  display: list-item;
+  margin: auto;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  text-align: center;
+  a {
+    color: white;
+  }
+  
+}
+#link li:hover {
+  background-color: red;
+  border: 2px solid green;
+}
+
+#icon {
+  color: blue;
+  font-size: 1.5rem;
+}
+
+#link {
+  color: grey;
+}
