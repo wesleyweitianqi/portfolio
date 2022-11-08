@@ -4,7 +4,7 @@ import './project.scss';
 
 const Project: React.FC = () => {
   return (
-    <div>
+    <div className='projects-container'>
       <p>Project!</p>
       <div className='container'>
         <div className="card" >
