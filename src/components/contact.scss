@@ -1,13 +1,23 @@
-.contact {
-    display: flex;
-    flex-direction: column;
-}
-
-.section {
-    font-size: 4rem;
-}
-
-table {
+.contact-container {
     margin: auto;
     margin-top: 200px;
+    width:70%;
+    height: 50%;
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        input {
+            margin-top: 10px;
+        }
+        textarea {
+            margin-top:10px;
+        }
+    }
+    
+    .section {
+        font-size: 4rem;
+    }
+    
+    
 }

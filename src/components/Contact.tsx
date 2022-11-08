@@ -3,7 +3,7 @@ import './contact.scss';
 
 const Contact: React.FC = () => {
     return (
-        <table>
+        <table className="contact-container">
             <tr>
                 <td>
                     <p className='section'>lets Connect!</p>
