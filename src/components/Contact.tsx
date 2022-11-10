@@ -17,7 +17,7 @@ const Contact: React.FC = () => {
                         <input type="name" name="name" placeholder='Name*' />
                         <input type="email" name="Email" placeholder='Email*' />
                         <textarea name="message" placeholder='Leave a message' />
-
+                        <button type="submit">Submit</button>
                     </div>
                 </td>
             </tr>
