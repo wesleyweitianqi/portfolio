@@ -6,8 +6,13 @@ const Contact: React.FC = () => {
     return (
         <table className="contact-container">
             <tr>
-                <td>
+                <th colSpan={2}>
+
                     <p className='section'>lets Connect!</p>
+                </th>
+            </tr>
+            <tr>
+                <td>
                   
                     <p>I'd love to here from you!</p>
                     <p>Please feel free to say hello and leave me a message.</p>
@@ -21,6 +26,7 @@ const Contact: React.FC = () => {
                         <button onClick={sendMail}>Submit</button>
                     </div>
                 </td>
+
             </tr>
         </table>
     )
