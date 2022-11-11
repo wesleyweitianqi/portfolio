@@ -1,10 +1,16 @@
-export default {
-    USER_ID: `service_yu4c8dm`,
-    TEMPLATE_ID: `template_i78bhvn`
-}
+import emailjs from 'emailjs-com';
 
-const button = document.querySelector("button");
-button.addEventListener("click", (e)=>{
-    e.preventDefault();
-    emailjs.sendForm(`gmail`, )
-})
+export const sendMail = ()=> {
+    let params = {
+        from_name: document.getElementById("fullName").value,
+        email_id: document.getElementById("email_id").value,
+        message: document.getElementById("message").value
+    }
+    const serviceID = 'service_yu4c8dm';
+    const templateID = 'template_i78bhvn';
+    
+    emailjs.send(serviceID, templateID, params,"wgvUJ_4bBayao7kNp")
+    .then((res) => {
+        alert("Success!" + res.status)
+    });
+}

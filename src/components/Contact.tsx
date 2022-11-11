@@ -1,5 +1,6 @@
 import React from 'react';
 import './contact.scss';
+import { sendMail } from '../assets/emailkey';
 
 const Contact: React.FC = () => {
     return (
@@ -14,10 +15,10 @@ const Contact: React.FC = () => {
                 </td>
                 <td>
                     <div className="contact">
-                        <input type="name" name="name" placeholder='Name*' />
-                        <input type="email" name="Email" placeholder='Email*' />
-                        <textarea name="message" placeholder='Leave a message' />
-                        <button type="submit">Submit</button>
+                        <input type="name" id="fullName" name="full name" placeholder='Name*' />
+                        <input type="email" id="email_id" name="email id" placeholder='Email*' />
+                        <textarea id="message" placeholder='Leave a message' required/>
+                        <button onClick={sendMail}>Submit</button>
                     </div>
                 </td>
             </tr>

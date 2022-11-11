@@ -3,8 +3,8 @@ import './project.scss';
 import { projectList } from '../assets/projectList';
 
 const Project: React.FC = () => {
-  const projectLists = projectList.map(item=> {
-    return <div className="card" >
+  const projectLists = projectList.map((item,index)=> {
+    return <div className="card" key={index} >
     <img src={item.image} width="250" className="card-img" alt="tinyapp" />
       <div className="card-body">
         <h5 className="card-title">{item.id}</h5>
