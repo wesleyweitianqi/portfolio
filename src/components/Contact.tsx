@@ -12,7 +12,7 @@ const Contact: React.FC = () => {
                 </th>
             </tr>
             <tr>
-                <td>
+                <td style={{width: "30%" }}>
                   
                     <p>I'd love to here from you!</p>
                     <p>Please feel free to say hello and leave me a message.</p>
@@ -20,8 +20,8 @@ const Contact: React.FC = () => {
                 </td>
                 <td>
                     <div className="contact">
-                        <input type="name" id="fullName" name="full name" placeholder='Name*' />
-                        <input type="email" id="email_id" name="email id" placeholder='Email*' />
+                        <input type="name" id="fullName" name="full name" placeholder='Your Name*' />
+                        <input type="email" id="email_id" name="email id" placeholder='Your Email*' />
                         <textarea id="message" placeholder='Leave a message' required/>
                         <button onClick={sendMail}>Submit</button>
                     </div>

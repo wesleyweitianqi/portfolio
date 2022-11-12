@@ -5,11 +5,18 @@
 
 #home {
   width: 50vw;
-  margin:auto;
+  margin-left:30px;
   margin-top: 100px;
   padding-top: 100px;
-  text-align: right;
+  text-align: center;
   align-items: center;
+  p {
+    font-size:3rem;
+    span {
+      font-family: 'League Spartan', sans-serif;
+      font-weight: 700;
+    }
+  }
 }
 
 #icons {
@@ -54,7 +61,7 @@
     text-align: center;
   }
   h3 {
-    background-color: rgb(146, 134, 147);
+    background-color: rgb(190, 189, 190);
     margin-top: 50px;
     padding: 10px 10px;
     border-radius: 10px;
