@@ -1,10 +1,11 @@
 import React from "react";
 import "./about.scss";
-import Experience from "./Experience";
-import Education from "./Education";
+import profile from "../assets/Profile.jpg";
+import { MdLocationOn } from 'react-icons/md'
 
 const About: React.FC = () => {
   return (
+    <div className="island">
     <div className="about-container">
       <div id="brief">
         <p id="hello">Hello!</p>
@@ -17,10 +18,15 @@ const About: React.FC = () => {
           customers.
         </p>
       </div>
-      <div className="exp-edu">
-        <Experience />
-        <Education />
+      <div className="profile">
+        <img src={profile} alt="profile" />
+        <div className="location"><MdLocationOn />
+        <span> Toronro Canada</span>
+        </div>
+        
       </div>
+    </div>
+
     </div>
   );
 };

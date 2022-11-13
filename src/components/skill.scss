@@ -1,35 +1,50 @@
 
 
 .skills-container {
+    margin:auto;
     margin-top: 200px;
+    width:80vw;
     color: white;
+    box-shadow: 10px 5px 5px rgb(108, 106, 106);
+    border: 2px solid white;
+    background: rgb(190, 189, 190);
     P {
+    
+    border-radius: 5%;
         margin: auto;
         text-align: center;
         font-size: 4rem;
-        color: white;
+        color: rgb(29, 33, 28);
+        background: rgb(190, 189, 190);
     }
 
    
-    table {
+    table, tr,td {
         margin: auto;
-        width: 80vw;
+        background: rgb(190, 189, 190);
         font-size: 2.5rem;
+        color: rgb(29, 33, 28);
         
        tr {
+            width:75vw;
             display: flex;
-            height: 15vh;
+            height: 10vh;
             text-align: center;
             justify-content: center;
            td {
-            margin:auto;
+            margin:auto 0px;
+            width:30%;
            }
+           
            td:nth-child(2) {
             width: 60%;
             margin:auto;
             display: flex;
             justify-content: space-between;
-            font-size: 3rem;
+            font-size: 3.5rem;
+            svg {
+                border-radius: 25%;
+            }
            }
        }
     }

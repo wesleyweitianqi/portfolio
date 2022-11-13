@@ -1,12 +1,20 @@
 
-
+.island {
+  margin:auto;
+  margin-top: 200px;
+  width:80VW;
+  box-shadow: 10px 5px 5px rgb(108, 106, 106);
+  padding: 30px;
+  border: 2px solid white;
+  background: rgb(41, 41, 60);
+  
+}
 .about-container {
   justify-content: space-around;
   display: flex;
-  margin-top: 200px;
   #brief {
     width: 30vw;
-    text-align: left;
+    text-align: center;
     #hello {
       font-size: 4rem;
       color: white;
@@ -17,16 +25,35 @@
     }
   
   }
-  .exp-edu { 
+  .profile { 
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    
+      
+      img {
+        margin-top: 100px;
+        margin-left: -100px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-bottom: 30px;;
+      }
+      svg {
+       
+        margin-left: -85px;
+        color: white;
+        font-size: 1.5rem;
+        margin-right: 30px;
+      }
+      span {
+        margin-top: 50px;
+        color: white;
+        font-size: 1.2rem;
+      }
+    
   }
 
-  div.exp-edu > div {
-    width: 200px;
-
-  }
 
 }
 

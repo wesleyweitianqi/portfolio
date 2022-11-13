@@ -1,28 +1,35 @@
 .projects-container {
   margin-top: 200px;
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  .carousel {
+
+    box-shadow: 10px 5px 5px rgb(108, 106, 106);
+  }
   p:first-child {
+    color: white;
+    margin: auto;
     font-size: 4rem;
-    color: white;
-    text-align: center;
   }
-  .card {
-    width:300px;
-    height:600px;
+  .container {
+    .projectImg {
+      width:80vw;
+      height:75vh;
+    }
+    .carousel-caption, h5, p, .carousel-indicators {
+      background: rgb(185, 182, 182);
+      opacity: 0.5;
+      border-radius: 25px;
+      h5, p {
+        color:rgb(21, 19, 19);
+        opacity: 1;
+      }
+    }
+    .carousel-indicators {
+      margin-top: -30px;
+      background: white;
+      background-color: white;
+    }
   }
-  h5 {
-    font-size: 2rem;
-    font-weight: bolder;
-    color:brown;
-  }
-  p {
-    color: white;
-  }
-  // .card-img {
-  //   width: 250px;
-  //   height:250px;
-  // }
-  // img {
-  //   width: 250px;
-  //   height:250px;
-  // }
 }

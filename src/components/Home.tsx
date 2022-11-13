@@ -12,10 +12,12 @@ const Home: React.FC = () => {
           <div className="container">
             <div id="home">
               <div id="introduction">
-                <p>Hello, I am <span >Wesley</span></p>
-                <span style={{color:"orange", fontWeight:"bold", marginLeft: "10px", fontSize:"2rem", background:"none"}}>
+                <p className="text">Hello, I am <span >Wesley</span></p>
+                <div>
+                <span className="text">a </span>
+                <span style={{color:"orange", fontWeight:"bold", marginLeft: "10px", fontSize:"3.5rem", background:"none"}}>
                  <Typewriter 
-                  words={['Developer', 'Application Engineer', 'Mechanical Engineer']}
+                  words={['Developer', 'Production Supervisor', 'Mechanical Engineer']}
                   loop={100}
                   cursor
                   cursorStyle="_"
@@ -24,6 +26,8 @@ const Home: React.FC = () => {
                   delaySpeed={1000}
                  />
                 </span>
+
+                </div>
               </div>
               <div id="icons">
                

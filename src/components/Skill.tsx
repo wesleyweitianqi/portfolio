@@ -52,7 +52,7 @@ const Skill:React.FC = () => {
                     <SiChai style={{color: "#a17132"}}/>
                     <SiStorybook style={{color: "#cf2563"}}/>
                     <SiJest style={{color: "#f0580c"}}/>
-                    <SiCypress style={{color: "#30332f"}}/>
+                    <SiCypress style={{color: "#76916d"}}/>
                 </td>
             </tr>
         </table>
