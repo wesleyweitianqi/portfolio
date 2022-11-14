@@ -19,6 +19,12 @@ function App() {
           <Skill />
           <Project />
           <Contact />
+
+          <div className="footer">
+            <div><i className="fa-regular fa-arrow-up-to-line"></i></div>
+            <div>Designed and Built by Wesley Wei</div>
+            
+            </div>
         </div>
     
   );

@@ -1,51 +1,53 @@
-
-
 .skills-container {
-    margin:auto;
-    margin-top: 200px;
-    width:80vw;
-    color: white;
-    box-shadow: 10px 5px 5px rgb(108, 106, 106);
-    border: 2px solid white;
-    background: rgb(190, 189, 190);
-    P {
-    
+  margin: auto;
+  margin-top: 200px;
+  width: 80vw;
+  font-family: 'League Spartan', sans-serif;
+      font-weight: 700;
+      font-size: 4rem;
+  box-shadow: 10px 5px 5px rgb(108, 106, 106);
+  border: 2px solid rgb(163, 158, 158);
+  // background: rgb(190, 189, 190);
+ 
+  P {
     border-radius: 5%;
-        margin: auto;
-        text-align: center;
-        font-size: 4rem;
-        color: rgb(29, 33, 28);
-        background: rgb(190, 189, 190);
-    }
+    margin: auto;
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+    // background: rgb(190, 189, 190);
+  }
 
-   
-    table, tr,td {
+  table,
+  tr,
+  td {
+    margin: auto;
+    // background: rgb(190, 189, 190);
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 400;
+
+    tr {
+      width: 75vw;
+      display: flex;
+      height: 10vh;
+      text-align: center;
+      justify-content: center;
+      td {
+        margin: auto 0px;
+        width: 30%;
+      }
+
+      td:nth-child(2) {
+        width: 60%;
         margin: auto;
-        background: rgb(190, 189, 190);
-        font-size: 2.5rem;
-        color: rgb(29, 33, 28);
-        
-       tr {
-            width:75vw;
-            display: flex;
-            height: 10vh;
-            text-align: center;
-            justify-content: center;
-           td {
-            margin:auto 0px;
-            width:30%;
-           }
-           
-           td:nth-child(2) {
-            width: 60%;
-            margin:auto;
-            display: flex;
-            justify-content: space-between;
-            font-size: 3.5rem;
-            svg {
-                border-radius: 25%;
-            }
-           }
-       }
+        display: flex;
+        justify-content: space-between;
+        font-size: 3.5rem;
+        svg {
+          border-radius: 25%;
+        }
+      }
     }
+  }
 }

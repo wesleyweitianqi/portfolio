@@ -11,16 +11,25 @@ export const projectList = [
     stacks: ["React", "socket.io", "sass", "buffer"],
     image: "https://github.com/wesleyweitianqi/N-Chat/blob/master/doc/Chat.gif?raw=true"
   },
+
+  {
+    id: "Scheduler",
+    discription: "Interview Scheduler is a SPA (Single Page Application) for tracking students interviews built by utilizing React built-in and custom hooks to allow users to add, edit and delete appointments in real time.",
+    stacks: ["React", "websocket", "storybook", "jest", "postgresql"],
+    image: "https://github.com/wesleyweitianqi/scheduler/blob/master/docs/Scheduler.gif?raw=true"
+  },
+
   {
     id: "BuySellListing",
     discription: "Buy & Sell is a buy-and-sell app built with Node.js, Express and postgreSQL. ",
     stacks: ["Node.js", "Express", "Ejs", "postgresql"],
-    image: "https://github.com/wesleyweitianqi/scheduler/blob/master/docs/appointment%20day%20select%20in%20hover.png?raw=true"
+    image: ""
   },
+
   {
     id: "Jungler",
     discription: "A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.",
     stacks: ["Ruby on rails", "stripe", "postgresql", "bootstrap"],
-    image: "https://github.com/wesleyweitianqi/Jungle/blob/master/doc/payment.png?raw=true"
+    image: "https://github.com/wesleyweitianqi/Jungle/blob/master/doc/Jungler.gif?raw=true"
   },
 ]

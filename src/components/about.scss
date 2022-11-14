@@ -5,7 +5,7 @@
   width:80VW;
   box-shadow: 10px 5px 5px rgb(108, 106, 106);
   padding: 30px;
-  border: 2px solid white;
+  border: 2px solid rgb(131, 128, 128);
   background: rgb(41, 41, 60);
   
 }
@@ -15,9 +15,10 @@
   #brief {
     width: 30vw;
     text-align: center;
-    #hello {
+    #topic {
+      font-family: 'League Spartan', sans-serif;
+      font-weight: 700;
       font-size: 4rem;
-      color: white;
     }
     p {
       color: white;

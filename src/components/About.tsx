@@ -8,7 +8,7 @@ const About: React.FC = () => {
     <div className="island">
     <div className="about-container">
       <div id="brief">
-        <p id="hello">Hello!</p>
+        <p id="topic">Hello</p>
         <p>
           Analytical Full stack Web Developer with a background in Mechanical
           Engineering. I love learning new technologies and converting data into

@@ -12,7 +12,7 @@ const Home: React.FC = () => {
           <div className="container">
             <div id="home">
               <div id="introduction">
-                <p className="text">Hello, I am <span >Wesley</span></p>
+                <p className="topic">Hello, I am <span >Wesley</span></p>
                 <div>
                 <span className="text">a </span>
                 <span style={{color:"orange", fontWeight:"bold", marginLeft: "10px", fontSize:"3.5rem", background:"none"}}>

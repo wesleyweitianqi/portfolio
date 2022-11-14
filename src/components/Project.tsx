@@ -6,12 +6,12 @@ import Carousel from 'react-bootstrap/Carousel';
 const Project: React.FC = () => {
   const projectLists = projectList.map((item,index)=> {
     return (
-      <Carousel.Item>
+      <Carousel.Item key={index}>
         <img
-          key={index}
           className="projectImg"
           src={item.image}
           alt="TinyApp"
+          style={{width:"60%", height:"60%"}}
         />
         <Carousel.Caption>
           <h5>{item.id}</h5>
@@ -22,12 +22,12 @@ const Project: React.FC = () => {
   })
   return (
     <div className='projects-container'>
-      <p>Projects</p>
-      <div className='container'>
+      
       <Carousel variant="dark">
+      <p>Projects</p>
         {projectLists}
       </Carousel>
-      </div>  
+     
     </div>
   )
 }

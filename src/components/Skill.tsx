@@ -4,6 +4,7 @@ import { SiJavascript, SiTypescript, SiRuby, SiHtml5,
         SiExpress, SiRubyonrails, SiPostgresql, SiMongodb,
         SiMocha, SiChai, SiEslint, SiStorybook, SiJest, SiCypress } from "react-icons/si";
 import { FaPython, FaSass, FaVuejs, FaNode } from "react-icons/fa";
+import { DiDjango } from "react-icons/di";
 import './skill.scss';
 
 
@@ -39,6 +40,7 @@ const Skill:React.FC = () => {
                 <td>
                     <SiExpress style={{color:"#03fcb5"}}/>
                     <FaNode style={{color:"#07fc03"}}/>
+                    <DiDjango style={{color:"#daeeda"}} />
                     <SiRubyonrails style={{color:"#fc1803"}}/>
                     <SiPostgresql style={{color:"#0390fc"}}/>
                     <SiMongodb style={{color:"#03fc6b"}}/>

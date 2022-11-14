@@ -1,35 +1,67 @@
 .projects-container {
   margin-top: 200px;
-  height:100vh;
-  display: flex;
-  flex-direction: column;
-  .carousel {
+  // height: 100vh;
+  text-align: center;
 
+  p:first-child {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    color: white;
+    width: 100%;
+    background: none;
+  }
+  .carousel {
+    margin: auto;
+    width: 80%;
+    height: 60%;
+    border:2px solid rgb(175, 172, 172);
     box-shadow: 10px 5px 5px rgb(108, 106, 106);
   }
-  p:first-child {
-    color: white;
-    margin: auto;
-    font-size: 4rem;
+
+  .carousel-caption,
+  h5,
+  p,
+  .carousel-indicators {
+    width: 70%;
+    height: 20%;
+    background: rgba(185, 182, 182, 0);
+    // opacity: 0.5;
+    border-radius: 25px;
+    h5,
+    p {
+      margin-top: 10px;
+      color: white;
+      opacity: 1;
+    }
   }
-  .container {
-    .projectImg {
-      width:80vw;
-      height:75vh;
-    }
-    .carousel-caption, h5, p, .carousel-indicators {
-      background: rgb(185, 182, 182);
-      opacity: 0.5;
-      border-radius: 25px;
-      h5, p {
-        color:rgb(21, 19, 19);
-        opacity: 1;
-      }
-    }
-    .carousel-indicators {
-      margin-top: -30px;
-      background: white;
-      background-color: white;
-    }
+  .carousel-indicators {
+    margin-bottom: -8rem;
+    background: none;
+  }
+  .carousel-indicators li {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+  .carousel-indicators .active {
+    width: 30px;
+    height: 5px;
+    background-color: white;
+    border-radius: 25%;
+  }
+  .carousel {
+    display: flex;
+    flex-direction: column;
+    z-index: 50;
+  }
+  .carousel-caption {
+    width: 100%;
+    position: relative;
   }
 }

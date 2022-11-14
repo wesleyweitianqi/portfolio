@@ -7,7 +7,7 @@ const Contact: React.FC = () => {
         <table className="contact-container">
             <tr style={{height:"20%"}}>
                 <th colSpan={2}>
-                    <p className='section'>lets Connect!</p>
+                    <p className='topic'>lets Connect!</p>
                 </th>
             </tr>
             <tr style={{height:"60%"}}>
