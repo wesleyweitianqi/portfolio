@@ -1,61 +1,18 @@
-nav {
-  background: transparent;
-  z-index: 1000;
-  table {
-    position: fixed;
-    width:100vw;
-    
-    td:first-child {
-      padding-top: 15px;
-      color:white;
-      padding-left: 30px;
-      font-size: 3rem;
-      font-family: 'League Spartan', sans-serif;
-      font-weight: bolder;
+.navbar-brand {
+  color: white;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+  } 
 
-    }
-  }
-   
-    
-    ul {
-      display: flex;
-      flex-direction: row;
-      list-style-type:none;
-      justify-content: center;
-      text-align: center;
-     
-      li {
-      
-        display: list-item;
-        margin: auto;
-        font-size: 1rem;
-        border-radius: 20px;
-        text-align: center;
-        margin-top: 20px;
-        a {
-          color: white;
-        }
-        
-      }
-      li:last-child {
-        padding-right: 25px;
-      }
-      #link li:hover {
-        background-color: red;
-        border: 2px solid green;
-      }
-      
-      #icon {
-        color: blue;
-        font-size: 1.5rem;
-      }
-      
-      #link {
-        color: grey;
-      }
-  
-  
-  }
-  
+.navbar, .navbar-expand, .navbar-light {
+  background:rgb(41, 41, 60);
+  position: absolute;
+  z-index: 10;
+}
+
+
+.nav-link {
+  color: white;
 }
 

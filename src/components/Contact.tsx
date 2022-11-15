@@ -4,7 +4,7 @@ import { sendMail } from '../assets/emailkey';
 
 const Contact: React.FC = () => {
     return (
-        <table className="contact-container">
+        <table id="contact" className="contact-container">
             <tr style={{height:"20%"}}>
                 <th colSpan={2}>
                     <p className='topic'>lets Connect!</p>

@@ -21,7 +21,7 @@ const Project: React.FC = () => {
     )
   })
   return (
-    <div className='projects-container'>
+    <div id="projects" className='projects-container'>
       
       <Carousel variant="dark">
       <p>Projects</p>

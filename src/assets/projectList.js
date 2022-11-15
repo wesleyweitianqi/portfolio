@@ -20,9 +20,9 @@ export const projectList = [
   },
 
   {
-    id: "BuySellListing",
-    discription: "Buy & Sell is a buy-and-sell app built with Node.js, Express and postgreSQL. ",
-    stacks: ["Node.js", "Express", "Ejs", "postgresql"],
+    id: "Portfolio",
+    discription: "My portfolio is built with typescript, react to introduce myself and showcase my stacks and projects",
+    stacks: ["typescript", "React", "bootstrap", "emailjs"],
     image: ""
   },
 

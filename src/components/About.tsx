@@ -5,7 +5,7 @@ import { MdLocationOn } from 'react-icons/md'
 
 const About: React.FC = () => {
   return (
-    <div className="island">
+    <div id="about" className="island">
     <div className="about-container">
       <div id="brief">
         <p id="topic">Hello</p>
