@@ -7,8 +7,8 @@ import NavItem from "react-bootstrap/NavItem";
 const NavComp: React.FC = () => {
   return (
     <Navbar collapseOnSelect variant="light" expand="lg" fixed="top" style={{ position: "sticky" }}>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Brand href="#home">Wesley</Navbar.Brand>
+      <Navbar.Toggle id="nav-toggle-button" aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
           <NavItem>

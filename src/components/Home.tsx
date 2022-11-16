@@ -42,7 +42,7 @@ const Home: React.FC = () => {
             
           </div>
           <div id="reachMe">
-            <h3>Download CV</h3><h3>Let's talk</h3>
+            <h3><a href="https://resume.creddle.io/resume/iy2js0o7wgf" >Download CV</a></h3><h3><a href="#contact">Let's talk</a></h3>
           </div>
           </>
       
