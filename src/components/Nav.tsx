@@ -5,12 +5,12 @@ import Navbar from 'react-bootstrap/Navbar';
 
 const NavComp: React.FC = () => {
   return (
-    <Navbar collapseOnSelect  variant="light" fixed-top>
+    <Navbar collapseOnSelect  variant="light" fixed="top">
     <Navbar.Toggle />
       <Navbar.Brand href="#home">Wesley</Navbar.Brand>
       <Navbar.Collapse>
 
-      <Nav className="me-auto">
+      <Nav className=" collapse navbar-collapse">
         <Nav.Item>
 
         <Nav.Link eventKey="1" href="#home">Home</Nav.Link>
