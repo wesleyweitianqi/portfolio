@@ -14,10 +14,10 @@ const Home: React.FC = () => {
               <div id="introduction">
                 <p className="topic">Hello, I am <span >Wesley</span></p>
                 <div>
-                <span className="text">a </span>
-                <span style={{color:"orange", fontWeight:"bold", marginLeft: "10px", fontSize:"3.5rem", background:"none"}}>
+                <span className="topic">a </span>
+                <span className="typewriter">
                  <Typewriter 
-                  words={['Developer', 'Production Supervisor', 'Mechanical Engineer']}
+                  words={['Developer', 'Programmer', "Engineer"]}
                   loop={100}
                   cursor
                   cursorStyle="_"
@@ -42,7 +42,7 @@ const Home: React.FC = () => {
             
           </div>
           <div id="reachMe">
-            <h3>Download CV</h3><h3>Let's talk</h3>
+            <h3><a href="https://resume.creddle.io/resume/iy2js0o7wgf" >Download CV</a></h3><h3><a href="#contact">Let's talk</a></h3>
           </div>
           </>
       

@@ -2,13 +2,13 @@
   color: white;
   font-family: 'League Spartan', sans-serif;
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 3rem;
   } 
 
 .navbar, .navbar-expand, .navbar-light {
   background:rgb(41, 41, 60);
   position: absolute;
-  z-index: 10;
+  z-index: 1000;
 }
 
 
@@ -17,3 +17,20 @@
   
 }
 
+.items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-item {
+  position: right;
+  color: white;
+}
+
+#nav-toggle-button{
+  color: white;
+}
+
+.navbar-light button.navbar-toggler span.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(253, 92, 99, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
