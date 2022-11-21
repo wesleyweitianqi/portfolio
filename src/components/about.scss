@@ -2,18 +2,24 @@
 .island {
   margin:auto;
   margin-top: 350px;
+  display: flex;
+  flex-direction: column;
   width:80VW;
-  height:60vh;
-  box-shadow: 10px 5px 5px rgb(108, 106, 106);
-  padding: 30px;
-  border: 2px solid rgb(131, 128, 128);
-  background: rgb(41, 41, 60);
+  height:100vh;
+  
   @media (max-width: 576px) {
     height:70vh;
+    .space {
+      width: 100%;
+      height:50%;
+    }
   }
 }
+
 .about-container {
-  // padding-top: 100px;
+  box-shadow: 10px 5px 5px rgb(108, 106, 106);
+  border: 2px solid rgb(131, 128, 128);
+  background: rgb(41, 41, 60);
   justify-content: space-around;
   display: flex;
   @media (max-width: 576px) {
@@ -68,7 +74,7 @@
         font-size: 1.5rem;
         margin-right: 30px;
         @media (max-width: 576px) {
-          margin-left:30px;
+          margin-left:75px;
         }
       }
       span {
