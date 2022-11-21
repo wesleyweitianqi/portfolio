@@ -1,28 +1,44 @@
 
 .island {
   margin:auto;
-  margin-top: 200px;
+  margin-top: 350px;
   width:80VW;
+  height:60vh;
   box-shadow: 10px 5px 5px rgb(108, 106, 106);
   padding: 30px;
   border: 2px solid rgb(131, 128, 128);
   background: rgb(41, 41, 60);
-  
+  @media (max-width: 576px) {
+    height:70vh;
+  }
 }
 .about-container {
+  // padding-top: 100px;
   justify-content: space-around;
   display: flex;
+  @media (max-width: 576px) {
+    flex-direction: column;
+  }
   #brief {
-    width: 30vw;
+    width: 50vw;
     text-align: center;
+    @media (max-width: 576px) {
+      width:90%;
+    }
     #topic {
       font-family: 'League Spartan', sans-serif;
       font-weight: 700;
       font-size: 4rem;
+      @media (max-width: 576px) {
+        font-size: 2rem;
+      }
     }
     p {
       color: white;
       font-size: 1.5rem;
+      @media (max-width: 576px) {
+        font-size: 0.8rem;
+      }
     }
   
   }
@@ -34,23 +50,34 @@
       
       img {
         margin-top: 100px;
-        margin-left: -100px;
-        width: 200px;
-        height: 200px;
+        margin-left: 20px;
+        width: 150px;
+        height: 150px;
         border-radius: 50%;
-        margin-bottom: 30px;;
+        margin-bottom: 30px;
+        @media (max-width: 576px) {
+          width:100px;
+          height: 100px;
+          margin:auto;
+          margin-top:10px;
+        }
       }
       svg {
-       
-        margin-left: -85px;
+        margin-left: -10px;
         color: white;
         font-size: 1.5rem;
         margin-right: 30px;
+        @media (max-width: 576px) {
+          margin-left:30px;
+        }
       }
       span {
         margin-top: 50px;
         color: white;
         font-size: 1.2rem;
+        @media (max-width: 576px) {
+          font-size: 0.8rem;
+        }
       }
     
   }

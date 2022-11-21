@@ -6,11 +6,13 @@ import NavItem from "react-bootstrap/NavItem";
 
 const NavComp: React.FC = () => {
   return (
-    <Navbar collapseOnSelect variant="light" expand="lg" fixed="top" style={{ position: "sticky" }}>
-      <Navbar.Brand href="#home">Wesley</Navbar.Brand>
+    <>
+    
+    <Navbar  collapseOnSelect variant="light" expand="lg" fixed="top" style={{ position: "sticky" }}>
+      <Navbar.Brand href="#top">Wesley</Navbar.Brand>
       <Navbar.Toggle id="nav-toggle-button" aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="ml-auto">
+        <Nav className="justify-content-end">
           <NavItem>
             <Nav.Link eventKey="1" href="#home">Home</Nav.Link>
           </NavItem>
@@ -34,6 +36,8 @@ const NavComp: React.FC = () => {
       </Navbar.Collapse>
 
     </Navbar>
+    {/* <nav className="dummy"></nav>  */}
+    </>
   );
 };
 

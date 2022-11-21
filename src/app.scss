@@ -4,6 +4,12 @@
   margin:0;
   padding: 0;
   background-color: rgb(41, 41, 60);
+  
+}
+
+body {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer {
@@ -15,11 +21,3 @@
   text-align: center;
 }
 
-@media (max-width:575.98px) {
-  body {
-    background-color: white;
-  }
-  .topic {
-    font-size: 2rem;
-  }
-}
