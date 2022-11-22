@@ -8,10 +8,10 @@ const Project: React.FC = () => {
     return (
       <Carousel.Item key={index}>
         <img
-          className="projectImg"
+          className="projectImg img-fluid"
           src={item.image}
           alt="TinyApp"
-          style={{width:"60%", height:"60%"}}
+        
         />
         <Carousel.Caption>
           <h5>{item.id}</h5>

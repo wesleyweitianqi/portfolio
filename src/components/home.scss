@@ -105,6 +105,9 @@
   margin-bottom: 10vh;
   h3, h4, a {
     text-align: center;
+    @media (max-width: 576px) {
+      font-size: 1rem;
+    }
   }
    a{
     background-color: rgb(190, 189, 190);

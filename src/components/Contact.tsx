@@ -7,14 +7,13 @@ const Contact: React.FC = () => {
     <div id="contact">
       <div className="space"></div>
       <div className="contact-container">
-            <p className="topic">lets Connect!</p>
-            <div className="bottom">
-
-            <div className="left">
-                <p>I'd love to here from you!</p>
-                <p>Please feel free to say hello and leave me a message.</p>
-            </div>
-            <div className="right">
+        <p className="topic">lets Connect!</p>
+        <div className="bottom">
+          <div className="left">
+            <p>I'd love to here from you!</p>
+            <p>Please feel free to say hello and leave me a message.</p>
+          </div>
+          <div className="right">
             <div className="contact">
               <input
                 type="name"
@@ -30,9 +29,9 @@ const Contact: React.FC = () => {
               />
               <textarea id="message" placeholder="Leave a message" required />
               <button onClick={sendMail}>Submit</button>
-            </div>   
             </div>
-            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
