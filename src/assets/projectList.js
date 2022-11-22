@@ -23,7 +23,7 @@ export const projectList = [
     id: "Portfolio",
     discription: "My portfolio is built with typescript, react to introduce myself and showcase my stacks and projects",
     stacks: ["typescript", "React", "bootstrap", "emailjs"],
-    image: ""
+    image: "https://github.com/wesleyweitianqi/portfolio/blob/master/src/doc/Portfolio.gif?raw=true"
   },
 
   {

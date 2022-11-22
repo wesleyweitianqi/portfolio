@@ -1,11 +1,11 @@
-#Wesley Wei's Portfolio
+# Wesley Wei's Portfolio
 
-##My portfolio aims to deliver the lastest resume and projects to allow the viewer to know meself better. Check out my portfolio and leave a message!
+## My portfolio aims to deliver the lastest resume and projects to allow the viewer to know meself better. Check out my portfolio and leave a message!
 
-##Product
-!["portfolio"]()
+## Product
+!["portfolio"](https://github.com/wesleyweitianqi/portfolio/blob/master/src/doc/Portfolio.gif?raw=true)
 
-##Built with 
+## Built with 
 - "React"
 - "Typescript"
 - "SASS"
