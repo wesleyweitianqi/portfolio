@@ -10,7 +10,9 @@ import './skill.scss';
 
 const Skill:React.FC = () => {
   return (
-    <div id="skills" className='skills-container'>
+    <div className="skills">
+        <div className='space'></div>
+        <div id="skills" className='skills-container'>
         <p>Skills!</p>
         <table>
             <tr>
@@ -58,6 +60,8 @@ const Skill:React.FC = () => {
                 </td>
             </tr>
         </table>
+    </div>
+
     </div>
   )
 }
