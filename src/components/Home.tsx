@@ -31,11 +31,9 @@ const Home: React.FC = () => {
             </div>
           </div>
           <div id="icons">
-            <BsLinkedin />
-
-            <BsGithub />
-
-            <MdEmail />
+            <a href="https://www.linkedin.com/in/wesleywei-tech/" className="linkedin"><BsLinkedin style={{color:"rgb(37, 33, 179)"}}/></a>
+            <a href="https://github.com/wesleyweitianqi" className="github"><BsGithub style={{color:"white"}}/></a>
+            <a href="https://www.linkedin.com/in/wesleywei-tech/" className="email"><MdEmail style={{color:"rgb(160, 115, 84)"}}/></a>
           </div>
         </div>
 

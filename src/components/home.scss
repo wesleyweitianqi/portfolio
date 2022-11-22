@@ -63,13 +63,8 @@
   svg {
     padding: 20px 0;
   };
-  svg:first-child {
-    color: rgb(68, 68, 219);
-  }
-  svg:last-child {
-    color: rgb(160, 115, 84);
-  }
 }
+
 #introduction {
   color: white;
   width:70%;
@@ -117,5 +112,8 @@
     margin-right:20px;
     text-decoration: none;
   }
-  
+}
+
+#icon:first-child {
+  color: green;
 }

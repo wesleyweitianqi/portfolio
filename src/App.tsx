@@ -21,7 +21,7 @@ function App() {
           <Contact />
 
           <div className="footer">
-            <div><i className="fa-regular fa-arrow-up-to-line"></i></div>
+            <div className="totop"><i className="fa-regular fa-arrow-up-to-line"></i></div>
             <div>Designed and Built by Wesley Wei</div>
             
             </div>

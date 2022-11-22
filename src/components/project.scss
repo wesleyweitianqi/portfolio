@@ -44,6 +44,7 @@
     height: 80%;
     img {
       width: 80%;
+      height:65%;
     }
     .carousel-caption {
       position: static;
@@ -52,6 +53,7 @@
         width:80%;
         text-align: center;
         color: white;
+        overflow:visible;
       }
     }
 
