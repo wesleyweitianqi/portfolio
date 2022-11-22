@@ -1,32 +1,41 @@
-import React from 'react';
-import './contact.scss';
-import { sendMail } from '../assets/emailkey';
+import React from "react";
+import "./contact.scss";
+import { sendMail } from "../assets/emailkey";
 
 const Contact: React.FC = () => {
-    return (
-        <table id="contact" className="contact-container">
-            <tr style={{height:"20%"}}>
-                <th colSpan={2}>
-                    <p className='topic'>lets Connect!</p>
-                </th>
-            </tr>
-            <tr style={{height:"60%"}}>
-                <td style={{width: "30%" }}>
-                    <p>I'd love to here from you!</p>
-                    <p>Please feel free to say hello and leave me a message.</p>
-                </td>
-                <td>
-                    <div className="contact">
-                        <input type="name" id="fullName" name="full name" placeholder='Your Name*' />
-                        <input type="email" id="email_id" name="email id" placeholder='Your Email*' />
-                        <textarea id="message" placeholder='Leave a message' required/>
-                        <button onClick={sendMail}>Submit</button>
-                    </div>
-                </td>
+  return (
+    <div id="contact">
+      <div className="space"></div>
+      <div className="contact-container">
+            <p className="topic">lets Connect!</p>
+            <div className="bottom">
 
-            </tr>
-        </table>
-    )
-}
+            <div className="left">
+                <p>I'd love to here from you!</p>
+                <p>Please feel free to say hello and leave me a message.</p>
+            </div>
+            <div className="right">
+            <div className="contact">
+              <input
+                type="name"
+                id="fullName"
+                name="full name"
+                placeholder="Your Name*"
+              />
+              <input
+                type="email"
+                id="email_id"
+                name="email id"
+                placeholder="Your Email*"
+              />
+              <textarea id="message" placeholder="Leave a message" required />
+              <button onClick={sendMail}>Submit</button>
+            </div>   
+            </div>
+            </div>
+      </div>
+    </div>
+  );
+};
 
-export default Contact
+export default Contact;

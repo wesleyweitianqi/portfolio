@@ -4,13 +4,13 @@ import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import profile from "../assets/Profile.jpg";
 import { Typewriter } from "react-simple-typewriter";
-// import "react-simple-typewriter/dist/index.css";
+
 
 const Home: React.FC = () => {
   return (
     <>
-      <div id="container">
-        <div id="home">
+      <div id="home">
+        <div id="home-container">
           <div id="introduction">
             <p className="topic">
               Hello, I am <span>Wesley</span>

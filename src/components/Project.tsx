@@ -22,7 +22,7 @@ const Project: React.FC = () => {
   })
   return (
     <div id="projects" className='projects-container'>
-      
+      <div className='space'></div>
       <Carousel variant="dark">
       <p>Projects</p>
         {projectLists}

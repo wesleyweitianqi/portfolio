@@ -1,11 +1,12 @@
-#container {
+#home {
+  margin-top: -8vh;
   display: flex;
   flex-direction: column;
-  height:70vh;
+  height:100vh;
 
 }
 
-#home {
+#home-container {
   display: flex;
   width: 90vw;
   height:40vh;
@@ -45,7 +46,8 @@
   margin:auto;
   font-size: 6rem;
   @media (max-width: 576px) {
-    font-size: 5rem;
+    font-size: 6rem;
+    margin-top:20vh;
   }
   display: flex;
   flex-direction: column;
@@ -100,7 +102,7 @@
   // margin-top: 100px;
   display: flex;
   justify-content: center;
-
+  margin-bottom: 10vh;
   h3, h4, a {
     text-align: center;
   }
