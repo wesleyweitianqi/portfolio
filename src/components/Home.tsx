@@ -2,9 +2,7 @@ import React from "react";
 import "./home.scss";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
-import profile from "../assets/Profile.jpg";
 import { Typewriter } from "react-simple-typewriter";
-
 
 const Home: React.FC = () => {
   return (
