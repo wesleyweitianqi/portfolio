@@ -18,7 +18,7 @@ const About: React.FC = () => {
             fast-paced learning environment comprised of small to large projects
             using popular front and back-end languages. I also transitioned from
             the power distribution industry as a design engineer and programmer
-            at an transformer company with transferable skills in
+            at a transformer manufactiring company with transferable skills in
             problem-solving and project management that will help to kickstart a
             new career in programming!
           </p>
