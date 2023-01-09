@@ -14,7 +14,7 @@ const About: React.FC = () => {
             My name is Wesley Wei, in search of a career in full-stack or
             front-end development. I am eager to continue learning and
             collaborate with other developers of various experience levels. As a
-            graduate from <a className="lhl" href="https://www.lighthouselabs.ca/">Lighthouse Labs</a>, I was involved in a
+            graduate from <a target="_blank" rel="noreferrer" className="lhl" href="https://www.lighthouselabs.ca/">Lighthouse Labs</a>, I was involved in a
             fast-paced learning environment comprised of small to large projects
             using popular front and back-end languages. I also transitioned from
             the power distribution industry as a design engineer and programmer

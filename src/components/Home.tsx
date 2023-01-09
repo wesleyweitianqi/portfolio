@@ -29,15 +29,15 @@ const Home: React.FC = () => {
             </div>
           </div>
           <div id="icons">
-            <a href="https://www.linkedin.com/in/wesleywei-tech/" className="linkedin"><BsLinkedin style={{color:"rgb(37, 33, 179)"}}/></a>
-            <a href="https://github.com/wesleyweitianqi" className="github"><BsGithub style={{color:"white"}}/></a>
-            <a href="mailto:wesleytianqiwei@gmail.com" className="email"><MdEmail style={{color:"rgb(160, 115, 84)"}}/></a>
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/wesleywei-tech/" className="linkedin"><BsLinkedin style={{color:"rgb(37, 33, 179)"}}/></a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/wesleyweitianqi" className="github"><BsGithub style={{color:"white"}}/></a>
+            <a target="_blank" rel="noreferrer" href="mailto:wesleytianqiwei@gmail.com" className="email"><MdEmail style={{color:"rgb(160, 115, 84)"}}/></a>
           </div>
         </div>
 
         <div id="reachMe">
           <h3>
-            <a href="https://resume.creddle.io/resume/iy2js0o7wgf">
+            <a href="https://resume.creddle.io/resume/iy2js0o7wgf" target="_blank" rel="noreferrer">
               Download CV
             </a>
           </h3>

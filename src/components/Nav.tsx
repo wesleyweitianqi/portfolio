@@ -3,7 +3,7 @@ import "./nav.scss";
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavItem from "react-bootstrap/NavItem";
-import { NONAME } from "dns";
+
 
 const NavComp: React.FC = () => {
   return (
@@ -13,7 +13,7 @@ const NavComp: React.FC = () => {
       <Navbar.Brand href="#top">Wesley</Navbar.Brand>
       <Navbar.Toggle id="nav-toggle-button" aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="justify-content-evenly" style={{ width: "100%" }}>
+        <Nav className="justify-content-evenly bg-transparent" style={{ width: "100%" }}>
         <NavItem>
             <Nav.Link  href="#"></Nav.Link>
           </NavItem>

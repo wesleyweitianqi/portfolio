@@ -1,35 +1,46 @@
+import Chat from "../doc/Chat.gif";
+import Jungler from "../doc/Jungler.gif";
+import portfolio from "../doc/Portfolio.gif";
+import scheduler from "../doc/Scheduler.gif";
+import tinyApp from "../doc/TinyApp.gif";
+
+
 export const projectList = [
   {
     id: "Tinyapp",
-    discription: "TinyApp is a full stack web application built with Node and Express that allows users to shorten long URLs",
+    description: "TinyApp is a full stack web application built with Node and Express that allows users to shorten long URLs",
     stacks: ["express", "ejs", "bootstrap", "bcryptjs"],
-    image: "https://github.com/wesleyweitianqi/tinyapp/raw/main/docs/Monosnap%20screencast%202022-11-09%2021-50-55.gif?raw=true"
+    image: tinyApp,
+    url:"https://github.com/wesleyweitianqi/tinyapp"
   },
   {
     id: "N-chat",
-    discription: "A realtime chatRoom application built with Express,React and MongoDB",
+    description: "A realtime chatRoom application built with Express,React and MongoDB",
     stacks: ["React", "socket.io", "sass", "buffer"],
-    image: "https://github.com/wesleyweitianqi/N-Chat/blob/master/doc/Chat.gif?raw=true"
+    image: Chat,
+    url: "https://github.com/wesleyweitianqi/N-Chat"
   },
 
   {
     id: "Scheduler",
-    discription: "Interview Scheduler is a SPA (Single Page Application) for tracking students interviews built by utilizing React built-in and custom hooks to allow users to add, edit and delete appointments in real time.",
+    description: "Interview Scheduler is a SPA (Single Page Application) for tracking students interviews built by utilizing React built-in and custom hooks to allow users to add, edit and delete appointments in real time.",
     stacks: ["React", "websocket", "storybook", "jest", "postgresql"],
-    image: "https://github.com/wesleyweitianqi/scheduler/blob/master/docs/Scheduler.gif?raw=true"
+    image: scheduler,
+    url:"https://github.com/wesleyweitianqi/scheduler"
   },
 
   {
     id: "Portfolio",
-    discription: "My portfolio is built with typescript, react to introduce myself and showcase my stacks and projects",
+    description: "My portfolio is built with typescript, react to introduce myself and showcase my stacks and projects",
     stacks: ["typescript", "React", "bootstrap", "emailjs"],
-    image: "https://github.com/wesleyweitianqi/portfolio/blob/master/src/doc/Portfolio.gif?raw=true"
+    image: portfolio,
+    url:"https://github.com/wesleyweitianqi/portfolio"
   },
-
   {
     id: "Jungler",
-    discription: "A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.",
+    description: "A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.",
     stacks: ["Ruby on rails", "stripe", "postgresql", "bootstrap"],
-    image: "https://github.com/wesleyweitianqi/Jungle/blob/master/doc/Jungler.gif?raw=true"
-  },
+    image: Jungler,
+    url:"https://github.com/wesleyweitianqi/Jungle"
+  }
 ]

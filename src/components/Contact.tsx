@@ -10,7 +10,7 @@ const Contact: React.FC = () => {
         <p className="topic">lets Connect!</p>
         <div className="bottom">
           <div className="left">
-            <p>I'd love to here from you!</p>
+            <p>I'd love to hear from you!</p>
             <p>Please feel free to say hello and leave me a message.</p>
           </div>
           <div className="right">
@@ -28,7 +28,7 @@ const Contact: React.FC = () => {
                 placeholder="Your Email*"
               />
               <textarea id="message" placeholder="Leave a message" required />
-              <button onClick={sendMail}>Submit</button>
+              <input className="btn btn-primary" type="submit" value="Submit" onClick={sendMail}></input>
             </div>
           </div>
         </div>
