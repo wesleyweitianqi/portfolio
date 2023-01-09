@@ -2,6 +2,7 @@ import React from "react";
 import "./about.scss";
 import profile from "../assets/Profile.jpg";
 import { MdLocationOn } from "react-icons/md";
+import Rex from "../doc/Rex-Logo-Vector.png";
 
 const About: React.FC = () => {
   return (
@@ -30,6 +31,18 @@ const About: React.FC = () => {
             <span> Toronto Canada</span>
           </div>
         </div>
+      </div>
+      <div className="employment text-white">
+        <p className="topic">Employment</p>
+        <div className="row text-white">
+          <div className="col-3">2022-Current</div>
+          <img className="col-3" src={Rex} alt="Rex-logo"/>
+          <div className="col-5">
+            <div className="mb-2">Junior Software Developer</div>
+            <div>Vaughan Ontario</div>
+          </div>
+        </div>
+        
       </div>
     </div>
   );
