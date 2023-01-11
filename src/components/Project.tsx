@@ -8,10 +8,8 @@ const Project: React.FC = () => {
     <div className="card col-md-5 m-5 col-sm-1 "  style={{
       backgroundColor:"rgb(41, 41, 60)",
       border: "none"
-      // boxShadow: "10px 5px 5px rgb(108, 106, 106)",
-      // border: "2px solid rgb(145, 142, 142)",
       }} >
-        <img src={item.image} className="card-img-top " alt={item.id} style={{width:"31vw", height:"35vh"}}/>
+        <img src={item.image} className="card-img-top " alt={item.id} />
         <div className="card-body">
           <h3 className="card-title">{item.id}</h3>
           <p className="card-text">{item.description}</p>

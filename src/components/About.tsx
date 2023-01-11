@@ -40,7 +40,7 @@ const About: React.FC = () => {
           <img className="col-3" src={Rex} alt="Rex-logo"/>
           <div className="col-4 text-end">
             <div className="mb-2">Junior Software Developer</div>
-            <div>Vaughan Ontario</div>
+            <div className="address">Vaughan Ontario</div>
           </div>
         </div>
 
@@ -51,7 +51,7 @@ const About: React.FC = () => {
           <img className="col-3" src={Rex} alt="Rex-logo"/>
           <div className="col-4 text-end">
             <div className="mb-2">Design Engineer and Programmer</div>
-            <div>Vaughan Ontario</div>
+            <div className="address">Vaughan Ontario</div>
           </div>
         </div>
           

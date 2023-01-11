@@ -1,18 +1,16 @@
 
-#projects {
-  width:100%;
-  .space {
-    width: 100%;
-    
-    @media (max-width: 576px) {
-    
-    }
-  }
-}
-
 .projects-container {
   text-align: center;
-
+  .card > img {
+    width:31vw;
+    height:35vh;
+  }
+  @media (max-width: 576px) {
+    .card > img {
+      margin: auto;
+      width:75vw;
+    }
+  }
   p:first-child {
     font-family: "League Spartan", sans-serif;
     font-weight: 700;

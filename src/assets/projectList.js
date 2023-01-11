@@ -7,21 +7,6 @@ import tinyApp from "../doc/TinyApp.gif";
 
 export const projectList = [
   {
-    id: "Tinyapp",
-    description: "TinyApp is a full stack web application built with Node and Express that allows users to shorten long URLs",
-    stacks: ["express", "ejs", "bootstrap", "bcryptjs"],
-    image: tinyApp,
-    url:"https://github.com/wesleyweitianqi/tinyapp"
-  },
-  {
-    id: "N-chat",
-    description: "A realtime chatRoom application built with Express,React and MongoDB",
-    stacks: ["React", "socket.io", "sass", "buffer"],
-    image: Chat,
-    url: "https://github.com/wesleyweitianqi/N-Chat"
-  },
-
-  {
     id: "Scheduler",
     description: "Interview Scheduler is a SPA (Single Page Application) for tracking students interviews built by utilizing React built-in and custom hooks to allow users to add, edit and delete appointments in real time.",
     stacks: ["React", "websocket", "storybook", "jest", "postgresql"],
@@ -42,5 +27,20 @@ export const projectList = [
     stacks: ["Ruby on rails", "stripe", "postgresql", "bootstrap"],
     image: Jungler,
     url:"https://github.com/wesleyweitianqi/Jungle"
-  }
+  },
+  {
+    id: "Tinyapp",
+    description: "TinyApp is a full stack web application built with Node and Express that allows users to shorten long URLs",
+    stacks: ["express", "ejs", "bootstrap", "bcryptjs"],
+    image: tinyApp,
+    url:"https://github.com/wesleyweitianqi/tinyapp"
+  },
+  {
+    id: "N-chat",
+    description: "A realtime chatRoom application built with Express,React and MongoDB",
+    stacks: ["React", "socket.io", "sass", "buffer"],
+    image: Chat,
+    url: "https://github.com/wesleyweitianqi/N-Chat"
+  },
+
 ]

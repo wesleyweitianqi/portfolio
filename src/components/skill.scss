@@ -1,8 +1,6 @@
 
 .skills-container {
-  
-  margin:50px auto;
-  width: 80vw;
+  margin:auto;
   margin-bottom: 4rem;
   font-family: "League Spartan", sans-serif;
   font-weight: 700;
@@ -11,6 +9,7 @@
   border: 2px solid rgb(163, 158, 158);
   @media (max-width: 576px) {
     font-size: 2rem;
+    margin-bottom: 2rem;
   }
 
 
@@ -36,6 +35,7 @@
     @media (max-width: 576px) {
       font-size: 1rem;
       font-weight: 700;
+      margin:auto;
 
     }
 
@@ -45,6 +45,9 @@
       height: 10vh;
       text-align: center;
       justify-content: center;
+      @media (max-width: 576px) {
+        height: 6vh;
+      }
       td {
         margin: auto 0px;
         width: 30%;
