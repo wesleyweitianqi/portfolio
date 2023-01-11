@@ -2,8 +2,8 @@ import React from 'react';
 import { SiJavascript, SiTypescript, SiRuby, SiHtml5, 
         SiCss3, SiReact, SiJquery, SiBootstrap, SiTailwindcss,
         SiExpress, SiRubyonrails, SiPostgresql, SiMongodb,
-        SiMocha, SiChai, SiEslint, SiStorybook, SiJest, SiCypress } from "react-icons/si";
-import { FaPython, FaSass, FaVuejs, FaNode } from "react-icons/fa";
+        SiMocha, SiChai, SiEslint, SiStorybook, SiJest, SiCypress, SiFlask, SiMysql, SiRedis, SiGraphql } from "react-icons/si";
+import { FaPython, FaSass, FaVuejs, FaNode,FaJava } from "react-icons/fa";
 import { DiDjango } from "react-icons/di";
 import './skill.scss';
 
@@ -11,7 +11,7 @@ import './skill.scss';
 const Skill:React.FC = () => {
   return (
     <div id="skills">
-        <div className='space'></div>
+        {/* <div className='space'></div> */}
         <div  className='skills-container'>
         <p>Skills!</p>
         <table>
@@ -43,13 +43,24 @@ const Skill:React.FC = () => {
                     <SiExpress style={{color:"#03fcb5"}}/>
                     <FaNode style={{color:"#07fc03"}}/>
                     <DiDjango style={{color:"#daeeda"}} />
+                    <SiFlask style={{color:"#0390fc"}}/>
                     <SiRubyonrails style={{color:"#fc1803"}}/>
-                    <SiPostgresql style={{color:"#0390fc"}}/>
-                    <SiMongodb style={{color:"#03fc6b"}}/>
+                    <FaJava style={{color:"#116fbc"}}/>
                 </td>
             </tr>
             <tr>
-                <td className="name">Testing</td>
+                <td className="name">Database</td>
+                <td>
+                    <SiMysql style={{color:"#03fcb5"}}/>
+                    <FaNode style={{color:"#07fc03"}}/>
+                    <SiPostgresql style={{color:"#0390fc"}}/>
+                    <SiMongodb style={{color:"#03fc6b"}}/>
+                    <SiRedis style={{color:"#c02d22"}} />
+                    <SiGraphql style={{color:"#ba249a"}}/>
+                </td>
+            </tr>
+            <tr>
+                <td id="ToProjects" className="name">Testing</td>
                 <td>
                     <SiEslint style={{color: "purple"}}/>
                     <SiMocha style={{color: "#855f2e"}}/>

@@ -9,15 +9,13 @@
     width: 80vw;
     height:40vh;
     margin:auto;
-    padding-top: 50px;
-    text-align: left;
     align-items: center;
     @media (max-width: 576px) {
       flex-direction: column;
       margin-left: 5px;
       margin-top: 100px;
     }
-    .topic {
+    .textfs {
       font-size:4rem;
       @media (max-width: 576px) {
         font-size: 2rem;
@@ -66,6 +64,7 @@
 }
 
 #introduction {
+  margin-left: 5%;
   color: white;
   width:70%;
   @media (max-width: 576px) {
@@ -76,7 +75,7 @@
 #profile {
   width: 50vw;
   justify-content: center;
-  text-align: center;
+  // text-align: center;
   padding-top: 200px;
   img {
     width: 250px;

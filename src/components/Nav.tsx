@@ -22,15 +22,15 @@ const NavComp: React.FC = () => {
           </NavItem>
           <NavItem>
 
-            <Nav.Link eventKey="2" href="#about">About</Nav.Link>
+            <Nav.Link eventKey="2" href="#ToAbout">About</Nav.Link>
           </NavItem>
           <NavItem>
 
-            <Nav.Link eventKey="3" href="#skills">Skills</Nav.Link>
+            <Nav.Link eventKey="3" href="#ToSkills">Skills</Nav.Link>
           </NavItem>
           <NavItem>
 
-            <Nav.Link eventKey="4" href="#projects">Projects</Nav.Link>
+            <Nav.Link eventKey="4" href="#ToProjects">Projects</Nav.Link>
           </NavItem>
           <NavItem>
             <Nav.Link eventKey="5" href="#contact">Contact</Nav.Link>

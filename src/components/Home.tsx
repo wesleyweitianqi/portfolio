@@ -10,11 +10,10 @@ const Home: React.FC = () => {
       <div id="home">
         <div id="home-container">
           <div id="introduction">
-            <p className="topic">
-              Hello, I am <span>Wesley</span>
+            <p className="textfs">Hello, I am <span>Wesley</span>
             </p>
-            <div>
-              <span className="topic">a </span>
+            <p>
+              <span className="topic"> a </span>
               <span className="typewriter">
                 <Typewriter
                   words={["Developer", "Programmer", "Engineer"]}
@@ -26,7 +25,7 @@ const Home: React.FC = () => {
                   delaySpeed={1000}
                 />
               </span>
-            </div>
+            </p>
           </div>
           <div id="icons">
             <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/wesleywei-tech/" className="linkedin"><BsLinkedin style={{color:"rgb(37, 33, 179)"}}/></a>
@@ -37,7 +36,7 @@ const Home: React.FC = () => {
 
         <div id="reachMe">
           <h3>
-            <a href="https://resume.creddle.io/resume/iy2js0o7wgf" target="_blank" rel="noreferrer">
+            <a id="ToAbout" href="https://resume.creddle.io/resume/iy2js0o7wgf" target="_blank" rel="noreferrer">
               Download CV
             </a>
           </h3>
