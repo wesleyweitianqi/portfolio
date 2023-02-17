@@ -13,7 +13,11 @@ const Project: React.FC = () => {
         <div className="card-body">
           <h3 className="card-title">{item.id}</h3>
           <p className="card-text">{item.description}</p>
+          <div className='projectLink'>
           <a href={item.url} target="_blank" className="btn btn-primary" rel="noreferrer">github</a>
+          {item.deploy && <a href={item.deploy} target="_blank" className="btn btn-success" rel="noreferrer">deploy</a>}
+
+          </div>
         </div>
       </div>)
   })

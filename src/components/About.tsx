@@ -12,16 +12,15 @@ const About: React.FC = () => {
         <div id="brief">
           <p id="topic">Hello</p>
           <p>
-            My name is Wesley Wei, in search of a career in full-stack or
-            front-end development. I am eager to continue learning and
-            collaborate with other developers of various experience levels. As a
-            graduate from <a target="_blank" rel="noreferrer" className="lhl" href="https://www.lighthouselabs.ca/">Lighthouse Labs</a>, I was involved in a
-            fast-paced learning environment comprised of small to large projects
-            using popular front and back-end languages. I also transitioned from
-            the power distribution industry as a design engineer and programmer
-            at a transformer manufacturing company with transferable skills in
-            problem-solving and project management that will help to kickstart a
-            new career in programming!
+            With over 5 years of engineering experience in the power
+            distribution industry, I have discovered my passion for utilizing
+            software and technology to solve intricate engineering problems.
+            After completing a coding bootcamp at Lighthouse Labs, where I
+            developed expertise in coding MERN projects, I am currently
+            developing a production schedule app at Rex to track production
+            progress and provide query services. I am now seeking a software
+            developer position in an innovative company where I can apply my
+            skills and knowledge to help drive the engineering field forward.
           </p>
         </div>
         <div className="profile">
@@ -35,28 +34,25 @@ const About: React.FC = () => {
       <div className="employment text-white align-items-center">
         <p className="topic">Employment</p>
         <div className="container-fluid">
-        <div className="row text-white">
-          <div className="col-4 align-self-center">2022-Current</div>
-          <img className="col-3" src={Rex} alt="Rex-logo"/>
-          <div className="col-4 text-end">
-            <div className="mb-2">Junior Software Developer</div>
-            <div className="address">Vaughan Ontario</div>
+          <div className="row text-white">
+            <div className="col-4 align-self-center">2022-Current</div>
+            <img className="col-3" src={Rex} alt="Rex-logo" />
+            <div className="col-4 text-end">
+              <div className="mb-2">Junior Software Developer</div>
+              <div className="address">Vaughan Ontario</div>
+            </div>
           </div>
-        </div>
-
         </div>
         <div className="container-fluid">
-        <div id="ToSkills" className="row text-white">
-          <div className="col-4 align-self-center">2018-2022</div>
-          <img className="col-3" src={Rex} alt="Rex-logo"/>
-          <div className="col-4 text-end">
-            <div className="mb-2">Design Engineer and Programmer</div>
-            <div className="address">Vaughan Ontario</div>
+          <div id="ToSkills" className="row text-white">
+            <div className="col-4 align-self-center">2018-2022</div>
+            <img className="col-3" src={Rex} alt="Rex-logo" />
+            <div className="col-4 text-end">
+              <div className="mb-2">Design Engineer and Programmer</div>
+              <div className="address">Vaughan Ontario</div>
+            </div>
           </div>
         </div>
-          
-        </div>
-        
       </div>
     </div>
   );
