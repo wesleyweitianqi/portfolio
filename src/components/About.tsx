@@ -12,15 +12,19 @@ const About: React.FC = () => {
         <div id="brief">
           <p id="topic">Hello</p>
           <p>
-            With over 5 years of engineering experience in the power
-            distribution industry, I have discovered my passion for utilizing
-            software and technology to solve intricate engineering problems.
-            After completing a coding bootcamp at Lighthouse Labs, where I
-            developed expertise in coding MERN projects, I am currently
-            developing a production schedule app at Rex to track production
-            progress and provide query services. I am now seeking a software
-            developer position in an innovative company where I can apply my
-            skills and knowledge to help drive the engineering field forward.
+            A highly skilled and dedicated Full Stack Web Developer with over 5
+            years of engineering experience inthe power distribution industry.
+            Throughout my career, I have been passionate about leveraging
+            software and technology to solve complex engineering problems. After
+            completing a coding bootcampat Lighthouse Labs, I made a successful
+            transition into the fi eld of software development. And I
+            amcurrently engaged in developing a production tracking web app at
+            Rex. In this role, I am responsible forbuilding and updating
+            production tracking app to align the user requirements with
+            technical feasibility.I am now seeking new opportunities as a
+            software developer in an innovative company where I canapply my
+            skills and knowledge to drive technological advancements and make a
+            meaningful impact.
           </p>
         </div>
         <div className="profile">
