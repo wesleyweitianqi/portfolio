@@ -1,3 +1,5 @@
+@import "../app.scss";
+
 .island {
   margin: auto;
   display: flex;
@@ -6,20 +8,18 @@
   margin-bottom: 6rem;
   box-shadow: 10px 5px 5px rgb(108, 106, 106);
   border: 2px solid rgb(131, 128, 128);
-  z-index：10；
-  .space{
+  z-index：10； .space {
     width: 100%;
-    
+
     @media (max-width: 576px) {
       height: 30%;
       height: 10%;
     }
   }
-
 }
 
 .about-container {
-  background: rgb(41, 41, 60);
+  background: $background;
   justify-content: space-around;
   display: flex;
   @media (max-width: 576px) {
@@ -40,7 +40,7 @@
       }
     }
     p {
-      color: white;
+      color: rgb(253, 253, 253);
       font-size: 1rem;
       @media (max-width: 576px) {
         font-size: 0.8rem;
@@ -90,35 +90,32 @@
   color: rgba(229, 233, 28, 0.727);
 }
 
-
 .employment {
   @media (max-width: 576px) {
     display: flex;
     flex-direction: column;
   }
 }
-  .row {
-    // text-align: center;
-    margin-bottom: 2rem;
-    justify-content: center;
-    align-items: center;
-    @media (max-width: 576px) {
-      font-size: 0.7rem;
-      .address {
-        display: none;
-      }
-      margin-bottom: 1rem;
+.row {
+  // text-align: center;
+  margin-bottom: 2rem;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 576px) {
+    font-size: 0.7rem;
+    .address {
+      display: none;
     }
+    margin-bottom: 1rem;
   }
-  .topic {
-    text-align: center;
-    font-family: "League Spartan", sans-serif;
-    font-weight: 700;
-    font-size: 4rem;
-    @media (max-width: 576px) {
-      margin-top: 1rem;
-      font-size: 2rem;
-    }
-    
+}
+.topic {
+  text-align: center;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+  @media (max-width: 576px) {
+    margin-top: 1rem;
+    font-size: 2rem;
   }
-  
+}

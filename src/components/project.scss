@@ -1,14 +1,16 @@
+@import "../app.scss";
 
 .projects-container {
+  background-color: $background;
   text-align: center;
   .card > img {
-    width:31vw;
-    height:35vh;
+    width: 31vw;
+    height: 35vh;
   }
   @media (max-width: 576px) {
     .card > img {
       margin: auto;
-      width:75vw;
+      width: 75vw;
     }
   }
   p:first-child {
@@ -25,7 +27,7 @@
 }
 
 .projectLink {
-  width:100%;
+  width: 100%;
   justify-content: space-around;
   a {
     margin-right: 10px;

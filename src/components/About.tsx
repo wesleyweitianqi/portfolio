@@ -42,7 +42,7 @@ const About: React.FC = () => {
             <div className="col-4 align-self-center">2022-Current</div>
             <img className="col-3" src={Rex} alt="Rex-logo" />
             <div className="col-4 text-end">
-              <div className="mb-2">Junior Software Developer</div>
+              <div className="mb-2">Project Lead</div>
               <div className="address">Vaughan Ontario</div>
             </div>
           </div>
